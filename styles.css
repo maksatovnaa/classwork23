@@ -1,0 +1,69 @@
+body {
+    background-color: #e3e3e3;
+    font-family: "Josefin Sans";
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+
+.main{
+    box-shadow: 0 5px 30px rgb(206, 206, 206);
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.content {
+    background-image: url(images/bg-pattern-desktop.svg);
+    padding: 100px 200px;
+    width: 450px;
+    
+}
+.bottom{ font-size: 11px; text-align: center; }
+.bottom a { color: hsl(228, 45%, 44%); }
+
+
+.text {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 80px;
+}
+
+.text span {
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+
+.text22 {
+    color: hsl(0, 36%, 70%);
+    margin-bottom: 40px;
+}
+.top div {
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px#cccccc solid ;
+    border-radius: 30px;
+}
+.input {
+    border: none;
+    padding: 10px 20px;
+}
+
+.email::placeholder {
+    color: hsl(0, 36%, 70%);
+}
+
+.button {
+    background-color: #ef9e9b;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.photo{
+    margin-right: 100px;
+    width: 590px;
+    height: 800px;
+}
